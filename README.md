@@ -55,6 +55,13 @@ We learned about the different types of runs in LangSmith: **LLM**, **tool**, an
 
 ---
 
+## Changes Implemented for Module 1 (Course 4)
+- Added a **conversation workflow** to log multiple question-answer interactions as a single track.  
+- Demonstrated how each step (retrieval, LLM call, response generation) is traced under the same conversation key.  
+- Showcased the **trace sequence** to monitor and debug the full conversation between the students.
+
+---
+
 ## Learnings from Module 2 (Course 1)
 - Learned that we can **create our own datasets** using the LangSmith SDK.  
 - Explored how to structure **inputs and outputs** for question-answer datasets.  
@@ -66,11 +73,3 @@ We learned about the different types of runs in LangSmith: **LLM**, **tool**, an
 - Implemented a **question-answer dataset** related to **how to register for ICPC**.  
 - Used the LangSmith `Client` to **create examples** in the dataset.  
 - Prepared multiple input questions and corresponding output answers to simulate real queries.
-
-
----
-
-## Changes Implemented for Module 1 (Course 4)
-- Added a **conversation workflow** to log multiple question-answer interactions as a single track.  
-- Demonstrated how each step (retrieval, LLM call, response generation) is traced under the same conversation key.  
-- Showcased the **trace sequence** to monitor and debug the full conversation between the students.
