@@ -45,3 +45,17 @@ We learned about the different types of runs in LangSmith: **LLM**, **tool**, an
 - Queried detailed information about **Shiv Nadar University** to showcase **wrapOpenAI** functionality.  
 - Developed **MathDemo** examples to illustrate **Advanced RunTree** capabilities.  
 - Overall, implemented examples to show alternatives to **traceable**, highlighting different logging strategies and their benefits.
+
+---
+
+## Learnings from Module 1 (Course 4)
+- Learned that a **sequence of traces is called a track**, which allows keeping track of conversations.  
+- All traces belonging to a conversation share the **same key** but are differentiated by their **values**.  
+- Implemented a **conversation between a BMS student and a CSE student** to demonstrate the practical use of track in monitoring sequential interactions.
+
+---
+
+## Changes Implemented for Module 1 (Course 4)
+- Added a **conversation workflow** to log multiple question-answer interactions as a single track.  
+- Demonstrated how each step (retrieval, LLM call, response generation) is traced under the same conversation key.  
+- Showcased the **trace sequence** to monitor and debug the full conversation between the students.
