@@ -89,3 +89,18 @@ We learned about the different types of runs in LangSmith: **LLM**, **tool**, an
 - Evaluated the **similarity between expected and given outputs** using the evaluator.
 
 ---
+
+## Learnings from Module 2 (Course 3)
+- Learned how to **run experiments on datasets** using LLMs via the LangSmith SDK.  
+- Explored the use of **custom evaluators** to assess the outputs of LLMs.  
+- Observed how **metadata can be passed** to experiments to track model details or other information.  
+
+---
+
+## Changes Implemented for Module 2 (Course 3)
+- Implemented a **conciseness evaluator** (`is_concise_enough`) to check if the LLM output is shorter than 1.5x the reference output length.  
+- Created a **target function** (`target_function`) that generates responses for questions using our retrieval-augmented workflow (`langsmith_rag`).  
+- Ran **experiments on the dataset** `"deez-nuts"` with the evaluator to automatically assess LLM outputs.  
+- Added the ability to **pass custom metadata** (like `model_name`) to the experiments for better tracking and analysis.
+
+---
