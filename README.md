@@ -100,7 +100,7 @@ We learned about the different types of runs in LangSmith: **LLM**, **tool**, an
 ## Changes Implemented for Module 2 (Course 3)
 - Implemented a **conciseness evaluator** (`is_concise_enough`) to check if the LLM output is shorter than 1.5x the reference output length.  
 - Created a **target function** (`target_function`) that generates responses for questions using our retrieval-augmented workflow (`langsmith_rag`).  
-- Ran **experiments on the dataset** `"ICPC Dataset"` with the evaluator to automatically assess LLM outputs.  
+- Ran **experiments on the dataset** `"ds-dependable-pickup-7"` with the evaluator to automatically assess LLM outputs.  
 - Added the ability to **pass custom metadata** (like `model_name`) to the experiments for better tracking and analysis.
 
 ---
