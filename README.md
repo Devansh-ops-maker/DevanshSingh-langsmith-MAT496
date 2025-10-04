@@ -73,3 +73,19 @@ We learned about the different types of runs in LangSmith: **LLM**, **tool**, an
 - Implemented a **question-answer dataset** related to **how to register for ICPC**.  
 - Used the LangSmith `Client` to **create examples** in the dataset.  
 - Prepared multiple input questions and corresponding output answers to simulate real queries.
+
+---
+
+## Learnings from Module 2 (Course 2)
+- Learned how to **create evaluators** to check similarities between outputs.  
+- Explored how **LLMs can be used** to implement these evaluators.  
+- Observed how evaluators can help automate the evaluation of responses or code logic.
+
+---
+
+## Changes Implemented for Module 2 (Course 2)
+- Implemented a **code logic similarity evaluator** to compare code snippets across different programming languages.  
+- Created **sample inputs and expected outputs** to test the evaluator.  
+- Evaluated the **similarity between expected and given outputs** using the evaluator.
+
+---
