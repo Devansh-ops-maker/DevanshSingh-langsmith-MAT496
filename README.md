@@ -32,3 +32,16 @@ We learned about the different types of runs in LangSmith: **LLM**, **tool**, an
 - Added prompts for the LLM run.
   
 ---
+## Learnings from Module 1 (Course 3)
+- Explored **RunTree**, **wrapOpenAI**, and **Trace Context Manager** as alternative methods for logging traces.  
+- Learned how **RunTree** can track workflows in more advanced scenarios.  
+- Understood how **wrapOpenAI** can integrate trace logging directly with OpenAI API calls.  
+- Observed how **Trace Context Manager** allows contextual trace logging within workflows.
+
+---
+
+## Changes Implemented for Module 1 (Course 3)
+- Created a **calculator workflow** to demonstrate trace logging using **Trace Context Manager**.  
+- Queried detailed information about **Shiv Nadar University** to showcase **wrapOpenAI** functionality.  
+- Developed **MathDemo** examples to illustrate **Advanced RunTree** capabilities.  
+- Overall, implemented examples to show alternatives to **traceable**, highlighting different logging strategies and their benefits.
