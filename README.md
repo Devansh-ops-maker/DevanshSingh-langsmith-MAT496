@@ -104,3 +104,18 @@ We learned about the different types of runs in LangSmith: **LLM**, **tool**, an
 - Added the ability to **pass custom metadata** (like `model_name`) to the experiments for better tracking and analysis.
 
 ---
+
+## Module 3 (Course 1)
+
+### Learnings from this Course
+- Learned how to create and manage multiple datasets in LangSmith for structured experimentation.
+- Created a dataset related to **environment-based questions** to perform evaluation and analysis experiments.
+- Understood how datasets can be leveraged to test model performance across different domains.
+
+---
+
+### Changes Implemented
+- Created an additional dataset related to **CCC (Coding and Computing Concepts)** questions to conduct experiments.
+- Used both datasets to compare model responses and analyze performance consistency across different subject areas.
+
+---
