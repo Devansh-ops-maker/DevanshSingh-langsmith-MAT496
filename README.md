@@ -127,4 +127,16 @@
 - Converted the updated prompt to OpenAI format.  
 - Uploaded a coding assistant related prompt to LangChain.  
 - Pushed the same prompt as a RunnableSequence connected to `gpt-4o-mini`.
+---
+## Module 3 (Course 3)
 
+### Learnings from this Course
+- Learned how to use **LangChain Playground** to test and refine prompts interactively.
+- Understood that **commits made to prompts in LangSmith** automatically reflect in the code, eliminating the need for manual updates.
+- Observed how this **version control for prompts** improves workflow efficiency and reduces errors during development.
+---
+### Changes Implemented
+- Integrated our **custom coding assistant prompt** into the `coding_rag` workflow.
+- Demonstrated the feature where **updated prompt commits automatically sync** with the application.
+- Verified that the system dynamically adapts to new prompt versions without requiring code changes.
+---
